@@ -1,2 +1,2 @@
 # -Pratica
-Fazendo codigos em linguagens dievrsas para aprendizado
+### Fazendo codigos em linguagens diversas para aprendizado
