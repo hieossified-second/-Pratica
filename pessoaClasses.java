@@ -49,8 +49,7 @@ public class pessoaClasses {
         System.out.println("----------------------");
         System.out.println("Seu Nome: " + p_nome + "\nSua idade: " + p_idade + 
             "\nSeu cpf: " + p_cpf);
-
-        
+        pessoa.falar(p_nome);
     }
 
     public static void main(String[] args) {
