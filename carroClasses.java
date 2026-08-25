@@ -81,10 +81,37 @@ public class carroClasses {
 
     }
 
+    static class Carro3 {//Construtor
+        String marca;
+        String modelo;
+        int velocidade;
+
+        public Carro3(String mar, String mod, int velo){
+            this.marca = mar;
+            this.modelo = mod;
+            this.velocidade = velo;
+        }
+    }
+
+    public static void exemploTres(){
+        Carro3 carro = new Carro3("Ford", "Ford k", 150);
+
+        System.out.println(carro.marca);
+        System.out.println(carro.modelo);
+        System.out.println(carro.velocidade);
+    }
+
 
 
     public static void main(String[] args) {
-        //exemploUm();
+        exemploUm();
+
+        System.out.println();
+        System.out.println("-------------------------------------");
         exemploDois();
+
+        System.out.println();
+        System.out.println("-------------------------------------");
+        exemploTres();
     }
 }
