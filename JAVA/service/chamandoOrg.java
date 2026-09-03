@@ -1,7 +1,6 @@
 package service;
 import java.util.Scanner;
 
-import model.MetOrganizacao;
 import model.MetOrganizacao.OrganizandoBolha;
 
 

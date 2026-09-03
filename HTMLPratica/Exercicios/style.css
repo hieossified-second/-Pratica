@@ -1,0 +1,36 @@
+p {
+    color: rgb(19, 6, 39);
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(126, 51, 196);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(63, 16, 107);
+}
+
+.caixa{
+    width: 500px;
+    padding: 20px;
+    border: 2px solid;
+    margin: 15px auto;
+}
+
+.caixaPreta{
+    width: 40px;
+    padding: 20px;
+    border: 5px solid;
+    margin: 5px;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between 10px;
+    align-items: center;
+}
