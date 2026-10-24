@@ -17,7 +17,25 @@
 //
 //}
 
+static double somar(double a, double b)
+{
+    return a + b;
+}
 
+static double sub(double a, double b)
+{
+    return a - b;
+}
+
+static double mult(double a, double b)
+{
+    return a * b;
+}
+
+static double div(double a, double b)
+{
+    return a / b;
+}
 
 double resultado;
 
@@ -48,11 +66,11 @@ while(menu)
 
             Console.WriteLine("-- Digite um numero:  --");
             Console.WriteLine(" ");
-            double numero1 = double.Parse(Console.ReadLine());
+            double n1 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("-- Digite outro numero:  --");
             Console.WriteLine(" ");
-            double numero2 = double.Parse(Console.ReadLine());    
+            double n2 = double.Parse(Console.ReadLine());    
 
             Console.WriteLine("-- Digite a operacao que deseja --");
             Console.WriteLine("Digite 0 para sair");
@@ -60,28 +78,34 @@ while(menu)
             Console.WriteLine(" ");
             String operacao = Console.ReadLine();
 
+            if(n1 == 0 || n2 == 0 && operacao == "/")
+            {
+                Console.WriteLine("Nao pode se dividir por 0");
+                break;
+            }
+
             switch (operacao)
             {
                 case "+":
-                    resultado = numero1 + numero2;
+                    resultado = somar(n1, n2);
                     Console.WriteLine($"Resultado: {resultado}");
                     historico.Add(resultado);
 
                     break;
                 case "-":
-                    resultado = numero1 - numero2;
+                    resultado = sub(n1, n2);
                     Console.WriteLine($"Resultado: {resultado}");
                     historico.Add(resultado);
 
                     break;
                 case "*":
-                    resultado = numero1 * numero2;
+                    resultado = mult(n1, n2);
                     Console.WriteLine($"Resultado: {resultado}");
                     historico.Add(resultado);
 
                     break;
                 case "/":
-                    resultado = numero1 / numero2;
+                    resultado = div(n1, n2);
                     Console.WriteLine($"Resultado: {resultado}");
                     historico.Add(resultado);
 
