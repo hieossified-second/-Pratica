@@ -1,0 +1,14 @@
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.GeneratedMSBuildEditorConfig.editorconfig
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.AssemblyInfoInputs.cache
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.AssemblyInfo.cs
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.csproj.CoreCompileInputs.cache
+/home/kevin/Documentos/Pratica/Praticando/bin/Debug/net10.0/Praticando
+/home/kevin/Documentos/Pratica/Praticando/bin/Debug/net10.0/Praticando.deps.json
+/home/kevin/Documentos/Pratica/Praticando/bin/Debug/net10.0/Praticando.runtimeconfig.json
+/home/kevin/Documentos/Pratica/Praticando/bin/Debug/net10.0/Praticando.dll
+/home/kevin/Documentos/Pratica/Praticando/bin/Debug/net10.0/Praticando.pdb
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.dll
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/refint/Praticando.dll
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.pdb
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/Praticando.genruntimeconfig.cache
+/home/kevin/Documentos/Pratica/Praticando/obj/Debug/net10.0/ref/Praticando.dll

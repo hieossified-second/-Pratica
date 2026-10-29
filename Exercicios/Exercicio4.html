@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Identificação do Usuário</title>
+</head>
+
+<body>
+
+    <h3>Identificação do Usuário</h3>
+
+    <form>
+
+        Nome*:
+        <input type="text" name="nome">
+        <br>
+
+        Senha*:
+        <input type="password" name="senha">
+        <br>
+
+        CPF*:
+        <input type="text" name="cpf">
+        <br>
+
+        Sexo*:
+        <br>
+
+        <input type="radio" name="sexo" value="masculino">
+        Masculino
+        <br>
+
+        <input type="radio" name="sexo" value="feminino">
+        Feminino
+        <br>
+
+        Data Nascimento*:
+        <input type="date" name="data_nascimento">
+        <br>
+
+        Estado Civil*:
+        <select name="estado_civil">
+            <option>Solteiro</option>
+            <option>Casado</option>
+            <option>Divorciado</option>
+            <option>Viúvo</option>
+        </select>
+        <br>
+
+        Escolaridade:
+        <select name="escolaridade">
+            <option>Ensino Fundamental</option>
+            <option>Ensino Médio</option>
+            <option>Ensino Superior</option>
+        </select>
+        <br>
+
+        Ocupação Principal:
+        <input type="text" name="ocupacao">
+        <br>
+
+        Renda Mensal:
+        <input type="number" name="renda">
+        <br>
+
+        Número de Dependentes:
+        <input type="number" name="dependentes">
+        <br>
+
+        Telefone*:
+        <input type="tel" name="telefone">
+        <br>
+
+        E-mail*:
+        <input type="email" name="email">
+
+        <br><br>
+
+        <h3>Localização</h3>
+
+        Estado*:
+        <input type="text" name="estado">
+        <br>
+
+        Cidade*:
+        <input type="text" name="cidade">
+
+        <br><br>
+
+        <h3>Mensagem do Usuário</h3>
+
+        Grau de Urgência:
+        <select name="urgencia">
+            <option>Baixa</option>
+            <option>Média</option>
+            <option>Alta</option>
+        </select>
+        <br>
+
+        Mensagem*:
+        <br>
+
+        <textarea name="mensagem" rows="6" cols="40"></textarea>
+
+        <br>
+
+        Reportar Erro:
+        <input type="file" name="arquivo">
+
+        <br><br><br>
+
+        <input type="submit" value="Enviar">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <input type="reset" value="Limpar">
+
+        <br><br>
+
+        *Preenchimento obrigatório
+
+    </form>
+
+</body>
+
+</html>
