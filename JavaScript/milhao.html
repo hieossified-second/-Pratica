@@ -1,0 +1,56 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando js</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        button{
+            padding: 15px;
+            margin: 15px;
+            border-radius: 6px;
+        }
+
+        .div1{
+            margin: 15px;
+            padding: 12px;
+            display: block;
+        }
+        
+        .div1 p{
+            color: blue;
+            display: inline;
+        }
+
+        .div1 button{
+            color: purple;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <button onclick="Irpagina()">Ir para pagina</button>
+    <button onclick="aparecerMsg()">Aparecer aparecerMsg</button>
+    <button onclick="reset()">Recarregar a pagina</button>
+
+    <button onclick="criarParagrafo()">Criar paragrafo</button>
+
+    <div class="div1">
+        <h2>Somar numeros</h2>
+
+        <p>Numero 1: <input type="number" id="val1"></p>
+        <p>Numero 2: <input type="number" id="val2"></p>
+
+        <p id="resultado">resultado: </p>
+        <button onclick="somar()">Somar</button>
+
+
+    </div>
+
+    <script src="opa.js"></script>
+</body>
+</html>
